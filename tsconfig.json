@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "moduleResolution": "node16",
+    "outDir": "dist",
+    "rootDir": ".",
+    "target": "ES2015",
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */                      /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ],
+}
